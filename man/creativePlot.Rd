@@ -16,8 +16,6 @@ A plot  of n random pink stars
 This function produces a ggplot of n random pink stars
 }
 \examples{
-df.test <- data.frame(x = rnorm(10),
-                      y = rnorm(10))
-creativePlot(df.test, 'x', 'y')
+creativePlot(10)
 
 }

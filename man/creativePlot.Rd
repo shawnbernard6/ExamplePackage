@@ -4,20 +4,16 @@
 \alias{creativePlot}
 \title{creativePlot}
 \usage{
-creativePlot(df, varx, vary)
+creativePlot(n)
 }
 \arguments{
-\item{df}{a dataframe}
-
-\item{varx}{a string name for variable x in dataframe df}
-
-\item{vary}{a string name for variable y in dataframe df}
+\item{n}{the amount of stars}
 }
 \value{
-A plot  of \code{vary} versus \code{varx}
+A plot  of n random pink stars
 }
 \description{
-This function produces a ggplot of \code{vary} versus \code{varx}
+This function produces a ggplot of n random pink stars
 }
 \examples{
 df.test <- data.frame(x = rnorm(10),
